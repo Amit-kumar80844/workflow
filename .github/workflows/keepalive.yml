@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Render Service
         run: |
-          curl -L -m 10 https://imagedownloaderbackend.onrender.com/health || echo "Service down"
+          curl -L -m 10 https://image-downloader-api-3hog.onrender.com/health || echo "Service down"
